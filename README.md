@@ -55,7 +55,7 @@ The Movie Genre Classification project aimed to predict movie genres based on va
 - Develop a user-friendly interface for genre prediction, leveraging the trained model.
 
 ## Project Resources
-- **Dataset:** [IMDb India Movies Dataset](https://www.kaggle.com/datasets/adrianmcmahon/imdb-india-movies)
+- **Dataset Link:** [IMDb India Movies Dataset](https://www.kaggle.com/datasets/adrianmcmahon/imdb-india-movies)
 - **GitHub Repository:** [Movie Genre Classification Repo](https://github.com/IBakare/CODSOFT-/tree/main/Movie%20Rating%20Prediction)
 
 ## Conclusion
@@ -101,8 +101,8 @@ The Iris Flower Classification project focuses on building a machine learning mo
 - Enhance documentation and code comments for better understanding and maintainability.
 
 ## Project Files and Resources
-- [Iris Dataset Link](https://www.kaggle.com/datasets/arshid/iris-flower-dataset)
-- [GitHub Repository](https://github.com/IBakare/CODSOFT-/tree/main/Iris%20Flower%20Classification)
+- **Dataset Link:** [Iris Dataset Link](https://www.kaggle.com/datasets/arshid/iris-flower-dataset)
+- **GitHub Repository:** [GitHub Repository](https://github.com/IBakare/CODSOFT-/tree/main/Iris%20Flower%20Classification)
 
 ## Conclusion
 The Iris Flower Classification project successfully built a KNN-based model demonstrating exceptional accuracy in classifying iris flowers into species. The model effectively learned patterns from the provided features, showcasing strong potential for accurate predictions.
@@ -144,8 +144,8 @@ The Sales Prediction Project aims to predict sales based on advertising spending
 - Perform cross-validation or hyperparameter tuning to fine-tune the model.
 
 ## Project Files and Resources
-- [Sales Dataset Link](https://www.kaggle.com/code/ashydv/sales-prediction-simple-linear-regression/input)
-- [GitHub Repository](https://github.com/IBakare/CODSOFT-/tree/main/Sales%20Prediction)
+- **Dataset Link:** [Sales Dataset Link](https://www.kaggle.com/code/ashydv/sales-prediction-simple-linear-regression/input)
+- **GitHub Repository:** [GitHub Repository](https://github.com/IBakare/CODSOFT-/tree/main/Sales%20Prediction)
 
 ## Conclusion
 The Sales Prediction Project developed a simple Linear Regression model capable of predicting sales figures based on advertising spends across different channels. While the model showed moderate errors in predictions, it successfully explained a significant portion of variability in Sales based on the chosen features.
