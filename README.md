@@ -2,7 +2,7 @@
 **CODSOFT** | *15 December 2023 to 15 January 2024*
 
 # Project Highlights:
-### Titanic Survival Prediction Project
+## Titanic Survival Prediction Project
 
 ## Overview
 The Titanic Survival Prediction project aimed to predict passenger survival rates aboard the Titanic using machine learning algorithms. Leveraging the Titanic dataset encompassing passenger information, the project delved into exploratory data analysis (EDA), feature engineering, model training, and evaluation.
@@ -30,15 +30,39 @@ The Titanic Survival Prediction project aimed to predict passenger survival rate
 ## Conclusion
 The Titanic Survival Prediction project successfully constructed a predictive model capable of estimating passenger survival rates. Through comprehensive analysis and modeling, the project offered insights into factors influencing survival outcomes aboard the Titanic.
 
+## Movie Genre Classification Project
 
-#### Movie Rating Prediction with Python
-- Developed a regression-based model to forecast movie ratings based on genre, director, and actor information.
-- Explored historical movie data, performed data analysis, and conducted feature engineering to improve model accuracy.
-- Gained insights into factors influencing movie ratings and refined the model accordingly.
-- [Dataset Link](https://www.kaggle.com/datasets/adrianmcmahon/imdb-india-movies)
-- [GitHub Repo](https://github.com/IBakare/CODSOFT-/tree/main/Movie%20Rating%20Prediction)
+## Overview
+The Movie Genre Classification project aimed to predict movie genres based on various features such as release year, duration, director, and actors. Utilizing IMDb India movie data, the project involved data exploration, preprocessing, feature engineering, model training, and evaluation to predict movie genres accurately.
 
-#### Iris Flower Classification
+## Key Steps and Achievements
+1. **Data Collection and Preparation:** Accessed IMDb India movie dataset via Kaggle API, encompassing movie details like release year, duration, genres, ratings, director, and cast information.
+2. **Exploratory Data Analysis (EDA):** Conducted extensive EDA to understand the distribution and relationships among features, visualizing movie ratings, genre frequencies, and other relevant trends.
+3. **Data Cleaning and Preprocessing:** Addressed missing values in columns like 'Year', 'Duration', 'Rating', 'Votes', 'Director', 'Actor 1', 'Actor 2', and 'Actor 3'. Applied transformations, such as encoding categorical variables and handling missing data.
+4. **Feature Engineering:** Utilized one-hot encoding for genre categories, label encoding for categorical variables, and feature extraction from 'Duration' and 'Year' columns.
+5. **Model Building and Selection:** Explored various regression models (Random Forest, Gradient Boosting, Decision Tree) using hyperparameter tuning via RandomizedSearchCV for predicting movie ratings.
+
+## Performance and Insights
+- **Model Evaluation:** Identified the best-performing models with their respective hyperparameters:
+    - Random Forest: n_estimators=300, min_samples_split=5, min_samples_leaf=4, max_depth=20
+    - Gradient Boosting: n_estimators=200, min_samples_split=2, min_samples_leaf=4, max_depth=5, learning_rate=0.1
+    - Decision Tree: min_samples_split=10, min_samples_leaf=4, max_depth=10
+- **Insights:** Discovered that the movie's release year, duration, and the cast (director, actors) play crucial roles in predicting movie genres. Higher accuracy was achieved by ensemble methods.
+
+## Future Improvements
+- Experiment with additional feature engineering techniques, like text analysis for director or actor names.
+- Explore ensemble methods or advanced deep learning models for enhanced accuracy in genre prediction.
+- Develop a user-friendly interface for genre prediction, leveraging the trained model.
+
+## Project Resources
+- **Dataset:** [IMDb India Movies Dataset](https://www.kaggle.com/datasets/adrianmcmahon/imdb-india-movies)
+- **GitHub Repository:** [Movie Genre Classification Repo](https://github.com/IBakare/CODSOFT-/tree/main/Movie%20Rating%20Prediction)
+
+## Conclusion
+The Movie Genre Classification project successfully built predictive models to identify movie genres based on various movie attributes. Through comprehensive analysis and modeling, the project provided insights into the crucial factors influencing movie genre predictions in the IMDb India movie dataset.
+
+
+### Iris Flower Classification
 - Created a machine learning model using the Iris dataset to classify flowers into respective species based on their measurements.
 - Employed classification techniques and utilized sepal and petal measurements for accurate species classification.
 - Explored introductory classification tasks using widely recognized datasets.
