@@ -90,7 +90,7 @@ The Iris Flower Classification project focuses on building a machine learning mo
   - 100% accuracy, indicating flawless predictions on the test data.
 - Implications suggest the model accurately distinguished between the iris species based on provided features.
 
-### Model Persistence and Deployment
+### Model Deployment
 - Saved the trained KNN model using Joblib for future use.
 - Demonstrated model deployment by loading the saved model and making predictions on new data samples.
 - Exported predictions to a CSV file for further analysis or usage.
@@ -134,7 +134,7 @@ The Sales Prediction Project aims to predict sales based on advertising spending
 - The Linear Regression model achieved an MSE of 4.52, indicating moderate errors in predictions.
 - An R-squared value of 0.86 signifies that approximately 86% of the variability in Sales can be explained by the advertising expenditure on TV, Radio, and Newspaper.
 
-### Model Persistence and Deployment
+### Model Deployment
 - Saved the trained Linear Regression model using Joblib for future use.
 - Demonstrated model deployment by loading the saved model and predicting Sales based on new advertising spends.
 
