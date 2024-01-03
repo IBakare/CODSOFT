@@ -1,15 +1,35 @@
 ## Data Science Intern  
 **CODSOFT** | *15 December 2023 to 15 January 2024*
 
-### Project Highlights:
+# Project Highlights:
+### Titanic Survival Prediction Project
 
-#### Titanic Survival Prediction
-- Built a predictive model using the Titanic dataset to forecast passenger survival rates.
-- Conducted exploratory data analysis (EDA) on individual passenger information, including age, gender, ticket class, fare, and cabin details.
-- Leveraged classification algorithms to predict survival outcomes.
-- Implemented feature engineering techniques to enhance model performance.
-- [Dataset Link](https://www.kaggle.com/datasets/yasserh/titanic-dataset)
-- [GitHub Repo](https://github.com/IBakare/CODSOFT-/tree/main/Titanic%20Survival%20Prediction)
+## Overview
+The Titanic Survival Prediction project aimed to predict passenger survival rates aboard the Titanic using machine learning algorithms. Leveraging the Titanic dataset encompassing passenger information, the project delved into exploratory data analysis (EDA), feature engineering, model training, and evaluation.
+
+## Key Steps and Achievements
+1. **Data Exploration and Analysis:** Conducted in-depth exploration of passenger attributes such as age, gender, ticket class, fare, and cabin details. Utilized statistical summaries and visualizations to understand relationships and trends within the dataset.
+2. **Preprocessing and Feature Engineering:** Processed the dataset by handling missing values, scaling numerical features, and encoding categorical variables for modeling purposes.
+3. **Model Building and Evaluation:** Employed three classification algorithms - Logistic Regression, K Nearest Neighbors (KNN), and Support Vector Classifier (SVC) - to predict survival outcomes. Assessed model performance using precision, recall, F1-score, and accuracy metrics.
+4. **Model Deployment and Persistence:** Saved the best-performing KNN model and established functionality to load the model for predictions.
+5. **Prediction App Development:** Created a prediction interface using Streamlit, enabling users to input passenger information and receive survival predictions based on the trained model.
+
+## Performance and Insights
+- **Model Performance:** The K Nearest Neighbors (KNN) algorithm emerged as the top-performing model with an accuracy of 83%, showcasing balanced precision and recall for both survivor and non-survivor classes.
+- **Insights:** The model demonstrated effectiveness in predicting survival likelihood, providing insights into passenger survival probabilities based on their attributes.
+
+## Future Improvements
+- Enhance the prediction app's interface and user experience.
+- Explore additional feature engineering techniques for improved model performance.
+- Consider ensemble methods or fine-tuning hyperparameters to further enhance model accuracy.
+
+## Project Resources
+- **Dataset Link:** [Titanic Dataset](https://www.kaggle.com/datasets/yasserh/titanic-dataset)
+- **GitHub Repository:** [Titanic Survival Prediction Repo](https://github.com/IBakare/CODSOFT-/tree/main/Titanic%20Survival%20Prediction)
+
+## Conclusion
+The Titanic Survival Prediction project successfully constructed a predictive model capable of estimating passenger survival rates. Through comprehensive analysis and modeling, the project offered insights into factors influencing survival outcomes aboard the Titanic.
+
 
 #### Movie Rating Prediction with Python
 - Developed a regression-based model to forecast movie ratings based on genre, director, and actor information.
