@@ -107,13 +107,49 @@ The Iris Flower Classification project focuses on building a machine learning mo
 ## Conclusion
 The Iris Flower Classification project successfully built a KNN-based model demonstrating exceptional accuracy in classifying iris flowers into species. The model effectively learned patterns from the provided features, showcasing strong potential for accurate predictions.
 
+## Sales Prediction Project
 
-#### Sales Prediction Using Python
-- Implemented machine learning techniques to forecast future sales, considering various factors like advertising expenditure and audience segmentation.
-- Utilized Python to analyze and interpret data, optimizing advertising strategies for maximizing sales potential.
-- Employed regression models to predict product purchases and support business decision-making.
-- [Dataset Link](https://www.kaggle.com/code/ashydv/sales-prediction-simple-linear-regression/input)
-- [GitHub Repo](https://github.com/IBakare/CODSOFT-/tree/main/Sales%20Prediction)
+## Overview
+The Sales Prediction Project aims to predict sales based on advertising spending through various channels such as TV, Radio, and Newspaper. This project utilizes simple linear regression to establish a relationship between advertising expenditure and resulting sales figures.
+
+### Libraries and Tools Used
+- Python libraries:
+  - NumPy, Pandas, Seaborn, Matplotlib
+  - Scikit-learn: Pipeline, LinearRegression, mean_squared_error, r2_score, train_test_split
+- Jupyter Notebook for code execution and visualization
+- Joblib for model persistence
+
+### Data Exploration and Preprocessing
+- Imported the Sales dataset containing information on TV, Radio, Newspaper advertising spends, and corresponding Sales figures.
+- Explored dataset shape, columns, data types, summary statistics, and absence of missing values.
+- Utilized Seaborn and Matplotlib for visualizations, including scatter plots and pair plots, to understand relationships between advertising mediums and sales.
+
+### Model Training and Evaluation
+- Defined features (TV, Radio, Newspaper) and the target variable (Sales) for regression.
+- Split the dataset into training and testing sets.
+- Trained a Linear Regression model using the training data and evaluated its performance on the test set.
+- Calculated Mean Squared Error (MSE) and R-squared (R2) as evaluation metrics.
+
+### Model Performance and Analysis
+- The Linear Regression model achieved an MSE of 4.52, indicating moderate errors in predictions.
+- An R-squared value of 0.86 signifies that approximately 86% of the variability in Sales can be explained by the advertising expenditure on TV, Radio, and Newspaper.
+
+### Model Persistence and Deployment
+- Saved the trained Linear Regression model using Joblib for future use.
+- Demonstrated model deployment by loading the saved model and predicting Sales based on new advertising spends.
+
+## Future Steps and Improvements
+- Experiment with more sophisticated models or ensemble techniques to potentially improve prediction accuracy.
+- Consider feature engineering or incorporating additional features for enhancing model performance.
+- Perform cross-validation or hyperparameter tuning to fine-tune the model.
+
+## Project Files and Resources
+- [Sales Dataset Link](https://www.kaggle.com/code/ashydv/sales-prediction-simple-linear-regression/input)
+- [GitHub Repository](https://github.com/IBakare/CODSOFT-/tree/main/Sales%20Prediction)
+
+## Conclusion
+The Sales Prediction Project developed a simple Linear Regression model capable of predicting sales figures based on advertising spends across different channels. While the model showed moderate errors in predictions, it successfully explained a significant portion of variability in Sales based on the chosen features.
+
 
 #### Credit Card Fraud Detection
 - Developed a fraud detection model using classification algorithms to identify fraudulent credit card transactions.
